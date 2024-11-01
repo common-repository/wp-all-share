@@ -1,0 +1,42 @@
+/*======================================*/
+           /*THEME 1 STYLE*/
+/*======================================*/
+
+.wpallshare-theme1 a.wpas-digg {background-color: #2169A8; } 
+.wpallshare-theme1 a.wpas-google-plus {background-color: #D73D32; } 
+.wpallshare-theme1 a.wpas-facebook {background-color: #3C579E; } 
+.wpallshare-theme1 a.wpas-twitter {background-color: #01BBF6; } 
+.wpallshare-theme1 a.wpas-linkedin {background-color: #1484C3; } 
+.wpallshare-theme1 a.wpas-pinterest {background-color: #BD2126; }
+.wpallshare-theme1 a.wpas-mail {background-color: #919191; }
+
+.wpallshare-theme1 a {
+  font-family: "latoregular";
+  color: #ffffff !important;
+  display: block;
+  float: left;
+  height: 36px;
+  line-height: 26px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 180px;
+}
+
+.wpallshare-theme1 a:hover{
+  background-color: #444444;
+}
+
+.wpallshare-theme1 a span.count {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 8px;
+  padding-left: 12px;
+}
+
+.wpallshare-theme1 a span.sharetitle {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  float: right;
+  line-height: 14px;
+  margin-top: 5px;
+  padding-left: 8px;
+}

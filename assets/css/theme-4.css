@@ -1,0 +1,101 @@
+/*======================================*/
+           /*THEME 4 STYLE*/
+/*======================================*/
+
+.wpallshare-theme4 a.wpas-digg:hover {background-color: #2169A8; } 
+.wpallshare-theme4 a.wpas-google-plus:hover {background-color: #D73D32; } 
+.wpallshare-theme4 a.wpas-facebook:hover {background-color: #3C579E; } 
+.wpallshare-theme4 a.wpas-twitter:hover {background-color: #01BBF6; } 
+.wpallshare-theme4 a.wpas-linkedin:hover {background-color: #1484C3; } 
+.wpallshare-theme4 a.wpas-pinterest:hover {background-color: #BD2126; }
+.wpallshare-theme1 a.wpas-mail:hover {background-color: #919191; }
+
+.wpallshare-theme4 li{
+  float: left;
+  position: relative;
+}
+
+.wpallshare-theme4 a,
+.wpallshare-theme4 a:visited {
+  color: #ffffff !important;
+  background-color: #919191;
+  float: left;
+  font-family: "latoregular";
+  line-height: 26px;
+  margin: 2px 1px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+  border-radius: 3px;
+    -webkit-transition: width 0.3s !important;
+    -moz-transition: width 0.3s !important;
+    -ms-transition: width 0.3s !important;
+    -o-transition: width 0.3s !important;
+  transition: width 0.3s !important;
+}
+
+.wpallshare-theme4 span.count {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  float: right;
+  margin-right: 8px;
+  margin-top: 5px;
+  line-height: 14px;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+
+.wpallshare-theme4 span.sharetitle {
+  vertical-align: middle;
+}
+
+.wpallshare-theme4 .tooltip{
+  background: #313131;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  left: -75%;
+  margin: auto;
+  opacity: 0;
+  padding: 8px 10px;
+  position: absolute;
+  text-align: center;
+  top: -50px;
+  right: 0;
+  width: 300%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+.wpallshare-theme4 .tooltip:after {
+  border-left: 8px solid transparent;
+  border-top: 8px solid #313131;
+  border-right: 8px solid transparent;
+  bottom: -8px;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 8px;
+}
+
+.wpallshare-theme4 li:hover .tooltip,
+.wpallshare-theme4 li:focus .tooltip,
+.wpallshare-theme4 li:active .tooltip{
+  opacity: 1; 
+}

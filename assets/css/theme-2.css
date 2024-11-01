@@ -1,0 +1,60 @@
+/*======================================*/
+           /*THEME 2 STYLE*/
+/*======================================*/
+
+.wpallshare-theme2 a.wpas-digg:hover {background-color: #2169A8; } 
+.wpallshare-theme2 a.wpas-google-plus:hover {background-color: #D73D32; } 
+.wpallshare-theme2 a.wpas-facebook:hover {background-color: #3C579E; } 
+.wpallshare-theme2 a.wpas-twitter:hover {background-color: #01BBF6; } 
+.wpallshare-theme2 a.wpas-linkedin:hover {background-color: #1484C3; } 
+.wpallshare-theme2 a.wpas-pinterest:hover {background-color: #BD2126; }
+.wpallshare-theme1 a.wpas-mail:hover {background-color: #919191; }
+
+.wpallshare-theme2 a {
+  color: #ffffff !important;
+  background-color: #919191;
+  float: left;
+  font-family: "latoregular";
+  height: 36px;
+  width: 36px;
+  line-height: 26px;
+  margin: 2px 1px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+  border-radius: 3px;
+    -webkit-transition: width 0.3s !important;
+    -moz-transition: width 0.3s !important;
+    -ms-transition: width 0.3s !important;
+    -o-transition: width 0.3s !important;
+  transition: width 0.3s !important;
+}
+
+.wpallshare-theme2 a:hover{
+  width: 160px;
+}
+
+.wpallshare-theme2 a span.count {
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 8px;
+  padding-left: 8px;
+  float: right;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  line-height: 14px;
+  margin-top: 5px;
+}
+
+.wpallshare-theme2 a span.sharetitle {
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 479px){
+  .wpallshare-theme2 li:nth-child(4n+4) {
+    clear: both;
+    display: block;
+  }
+}
